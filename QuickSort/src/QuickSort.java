@@ -34,6 +34,6 @@ public class QuickSort {
         array[high] = temp;
 
         return i + 1; // Pivotun doğru konumu
-    }
+    }   
 
 }

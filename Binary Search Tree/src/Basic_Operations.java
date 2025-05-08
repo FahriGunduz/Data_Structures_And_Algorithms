@@ -20,7 +20,8 @@ public class Basic_Operations {
                     break;
                 }
                 current = current.left; // Sol alt ağaçta ilerle
-            } else { // Yeni veri mevcut düğümden büyükse sağ alt ağaç
+            }
+            else { // Yeni veri mevcut düğümden büyükse sağ alt ağaç
                 if (current.right == null) {
                     current.right = newNode; // Sağ alt ağaca düğümü ekle
                     break;
